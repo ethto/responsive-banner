@@ -1,0 +1,52 @@
+html {
+  font-family: georgia;
+}
+
+.words {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  border-color: #fff;
+}
+
+.banner-content {
+  background-color: #495562;
+}
+
+.btn {
+  float: left;
+}
+
+.banner {
+  max-height: 2000px;
+  overflow: visible;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .btn {
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+
+}
