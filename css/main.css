@@ -53,5 +53,7 @@ a {
     position: absolute;
     bottom: 0;
     background-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
 
-}
+  }
